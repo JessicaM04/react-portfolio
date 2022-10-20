@@ -10,7 +10,6 @@ function Header() {
     fontFamily: "Sans-Serif",
     display: "flex",
     justifyContent: "space-between",
-    // flexWrap: "wrap",
     fontSize: 20,
   };
 
@@ -20,7 +19,7 @@ function Header() {
 
   return (
     <section style={headerStyle}>
-      <img src={"./react-portfolio/public/blueRidgeMtns.png"} alt="Blue Ridge Mountains"/>
+      {/* <img src={"./react-portfolio/public/blueRidgeMtns.png"} alt="Blue Ridge Mountains"/> */}
       <h1>About Me</h1>
       <h1>Portfolio</h1>
       <h1>Contact Me</h1>
