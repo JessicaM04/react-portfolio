@@ -1,9 +1,23 @@
 import React from "react";
 
 function Footer() {
+  const footerStyle = {
+    padding: 65,
+    textDecoration: "underline",
+    display: "flex",
+    color: "black",
+    justifyContent: "space-between",
+    alignItems: "center",
+    listStyle: "none"
+  };
   return (
-      <section>
-        <h1>This is the footer</h1>
+      <section style={footerStyle}>
+        <h1>Contact</h1>
+        <div class="contact-info">555-555-5555</div>
+        <div class="contact-info">lernantino@website.com</div>
+        <div class="contact-info">GitHub</div>
+        <div class="contact-info">Twitter</div>
+        <div class="contact-info">Spotify</div>
       </section>
     );
 }
