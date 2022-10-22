@@ -28,6 +28,18 @@
   color: #61dafb;
 }
 
+.nav-tabs {
+  list-style: none;
+}
+
+.subimage {
+  height:270px;
+  width: 500px;
+  border: 5px solid var(--primaryColor);
+  background-color: black;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
