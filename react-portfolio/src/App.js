@@ -1,15 +1,11 @@
 import './App.css';
-import Header from "./Components/Header";
-import About from "./Components/About";
-import ContactForm from "./Components/ContactForm";
 import Footer from "./Components/Footer";
+import PortfolioContainer from './Components/PortfolioContainer';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <About />
-      <ContactForm />
+      <PortfolioContainer />
       <Footer />
     </div>
   );

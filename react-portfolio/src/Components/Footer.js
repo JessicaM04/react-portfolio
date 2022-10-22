@@ -8,7 +8,6 @@ function Footer() {
     color: "black",
     justifyContent: "space-between",
     alignItems: "center",
-    listStyle: "none"
   };
   return (
       <section style={footerStyle}>
@@ -16,7 +15,7 @@ function Footer() {
         <div class="contact-info">555-555-5555</div>
         <div class="contact-info">lernantino@website.com</div>
         <div class="contact-info">GitHub</div>
-        <div class="contact-info">Twitter</div>
+        <div class="contact-info">LinkedIn</div>
         <div class="contact-info">Spotify</div>
       </section>
     );
